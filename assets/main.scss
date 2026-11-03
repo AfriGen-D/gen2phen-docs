@@ -1,0 +1,25 @@
+---
+# Front matter - do not remove
+---
+
+@import "minima";
+
+/* ---- your custom styles below ---- */
+.site-footer {
+  text-align: center !important;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e1e4e8;
+  font-size: 0.9rem;
+  color: #666;
+
+  p {
+    margin: 0.4rem 0;
+    text-align: center;
+  }
+
+  .footer-small {
+    font-size: 0.8rem;
+    color: #999;
+  }
+}

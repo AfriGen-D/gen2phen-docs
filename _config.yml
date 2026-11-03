@@ -1,0 +1,28 @@
+title: AG2P Database Documentation
+description: Documentation for the African Genotype to Phenotype Database
+baseurl: ""
+url: ""
+
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Menu items in the header, in this order
+header_pages:
+  - about.md
+  - data.md
+  - resources.md
+  - faq.md
+  - tutorials.md
+
+funding:
+  - AfriGen-D is funded by NIH Grant Number U24HG012750.
+  - H3ABioNet was funded by NIH Common Fund Award / NHGRI Grant Number U41HG006941
+
+exclude: [Gemfile, Gemfile.lock, vendor, README.md, ]
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import, color-functions, global-builtin, mixed-decls]
