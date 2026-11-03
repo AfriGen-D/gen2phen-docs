@@ -9,7 +9,7 @@ All contributions are made through **pull requests**. Please do not push directl
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/AfriGen-D/gen2phen-docs
 cd gen2phen-docs
 ```
 
