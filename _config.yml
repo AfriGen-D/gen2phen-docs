@@ -13,11 +13,11 @@ plugins:
 
 # Menu items in the header, in this order
 header_pages:
-  - about.md
-  - data.md
-  - resources.md
-  - faq.md
-  - tutorials.md
+  # - about.md
+  # - data-sources-and-approach.md
+  # - resources.md
+  # - faq.md
+  # - tutorials.md
 
 funding:
   - AfriGen-D is funded by NIH Grant Number U24HG012750.
