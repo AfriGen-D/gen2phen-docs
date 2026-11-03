@@ -1,7 +1,9 @@
 title: AG2P Database Documentation
 description: Documentation for the African Genotype to Phenotype Database
-baseurl: ""
-url: ""
+baseurl: "gen2phen-docs"
+url: "https://afrigen-d.github.io/gen2phen-docs"
+
+repository: afrigen-d.github.io/gen2phen-docs
 
 theme: minima
 
