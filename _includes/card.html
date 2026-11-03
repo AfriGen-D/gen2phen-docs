@@ -1,0 +1,9 @@
+<a class="card" href="{{ include.url | relative_url }}">
+  <i class="card-icon fa-solid {{ include.icon }}"></i>
+  <div class="card-body">
+    {% if include.label %}<span class="card-label">{{ include.label }}</span>{% endif %}
+    <strong class="card-title">{{ include.title }}</strong>
+    {% if include.text %}<span class="card-text">{{ include.text }}</span>{% endif %}
+  </div>
+  <i class="card-arrow fa-solid fa-arrow-right"></i>
+</a>

@@ -1,0 +1,13 @@
+top:
+  - { title: About,     url: /docs/getting-started/ }
+  - { title: Data,      url: /docs/browse/ }
+  - { title: Resources, url: /docs/downloads/ }
+  - { title: Help,      url: /docs/search/ }
+
+sidebar:
+  - { title: Home,        url: /,                  icon: fa-house }
+  - { title: Search,      url: /docs/search/,      icon: fa-magnifying-glass }
+  - { title: Browse,      url: /docs/browse/,      icon: fa-database }
+  - { title: Analysis,    url: /docs/analysis/,    icon: fa-chart-column }
+  - { title: Downloads,   url: /docs/downloads/,   icon: fa-download }
+  - { title: Submit data, url: /docs/submit-data/, icon: fa-file-arrow-up }

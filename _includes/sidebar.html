@@ -1,0 +1,9 @@
+<aside class="sidebar">
+  <nav>
+    {% for item in site.data.navigation.sidebar %}
+      <a href="{{ item.url | relative_url }}" class="{% if page.url == item.url %}active{% endif %}">
+        <i class="fa-solid {{ item.icon }}"></i><span>{{ item.title }}</span>
+      </a>
+    {% endfor %}
+  </nav>
+</aside>
